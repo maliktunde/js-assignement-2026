@@ -5,22 +5,25 @@
     <title>Mini To-Do</title>
     <style>
         .html, body { font-family: sans-serif; background: #c8c9ca; padding: 12px; }
-      .task { padding: 8px; margin: 6px 0; border: 1px solid #ccc; }
-      .highlight { background: #fff3cd; border-color: #ffeeba; }
+      .task { padding: 8px; margin: 6px 0; border: 1px solid rgb(39, 39, 78); }
+      .highlight { background: #e7d187; border-color: #ffe9a6; }
     </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <h1>Mini To‑Do</h1>
 
-    <button id="addBtn">Add New Item</button>
+    <button id="addBtn" onclick="addItem()">Add New Item</button>
 
     <div style="margin-top: 12px;">
-      <button id="toggleBtn">Toggle highlight</button>
-      <button id="clearBtn">Clear list</button>
+      <button id="toggleBtn" onclick="toggleHighlight()">Toggle highlight</button>
+      <button id="clearBtn" onclick="">Clear list</button>
     </div>
 
-    <div id="tasksContainer" style="margin-top: 12px;"></div>
+    <div id="tasksContainer" style="margin-top: 12px;">
+      <ol id="taskLists"></ol>
+    </div>
 
-    <script src="/js/app.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>

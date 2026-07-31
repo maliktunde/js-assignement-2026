@@ -17,6 +17,7 @@ Note: all all scripts should be saved in the js Folder withing this current dire
 - Two small buttons:
 	- Toggle highlight
 	- Clear list
+- Every task has a checkbox, clicking the checkbox should strike through the task text.
 
 ## JavaScript Requirements (Must Demonstrate)
 
@@ -43,12 +44,17 @@ When **Clear list** is clicked:
 
 - Remove all tasks from the container
 
+When **Checkboox on any task** is clicked:
+
+- Toggle strike-through on the task text indicating **cancelled** or **active**
+
 ### 3) External JavaScript File + Function Declarations + Calls
 
 In `app.js`:
 
 - Declare at least two functions (e.g., `addTask()` and `toggleHighlight()`).
 - In the event handlers, call those functions.
+- ensure to create a function to toggle the task strike-through and a function to clear the list
 
 ### 4) Events
 
