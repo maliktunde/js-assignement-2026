@@ -3,3 +3,10 @@
     justify-content: space-between; 
     align-items: center; 
 }
+
+.task.completed {
+    --muted-color: #34556630;
+    text-decoration: line-through;
+    color: var(--muted-color);
+    border-color: var(--muted-color);
+}

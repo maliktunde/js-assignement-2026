@@ -17,7 +17,7 @@ Note: all all scripts should be saved in the js Folder withing this current dire
 - Two small buttons:
 	- Toggle highlight
 	- Clear list
-- Every task has a checkbox, clicking the checkbox should strike through the task text.
+- Every task has a checkbox, clicking the checkbox should strike through the task text to mark it as completed.
 
 ## JavaScript Requirements (Must Demonstrate)
 
