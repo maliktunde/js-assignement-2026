@@ -39,29 +39,6 @@ Your task is to replicate this car dealer landing page design. You will build it
 ---
 
 ## 📐 Layout Structure
-┌─────────────────────────────────────────┐
-│ [Logo] [Nav] [Contact] │ <- Header/Nav
-├─────────────────────────────────────────┤
-│ │
-│ [Badge] [Hero Image] │
-│ [Headline] │
-│ [Description] [2026 Label] │
-│ [Buttons] │
-│ │
-├─────────────────────────────────────────┤
-│ Featured Drives ──── View All → │
-│ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐│
-│ │Icon/ │ │Icon/ │ │Icon/ │ │Icon/ ││
-│ │Image │ │Image │ │Image │ │Image ││
-│ │Title │ │Title │ │Title │ │Title ││
-│ │Specs │ │Specs │ │Specs │ │Specs ││
-│ │Price │ │Price │ │Price │ │Price ││
-│ │[Tag] │ │[Tag] │ │[Tag] │ │[Tag] ││
-│ └──────┘ └──────┘ └──────┘ └──────┘│
-├─────────────────────────────────────────┤
-│ © 2026 DriveLux [Social Icons]│ <- Footer
-└─────────────────────────────────────────┘
-
 ```
 ┌─────────────────────────────────────────┐
 │ [Logo] [Nav] [Contact] │ <- Header/Nav
@@ -300,14 +277,23 @@ Breakpoint	Target
 Before submitting, ensure you have:
 
 □ All HTML tags are closed
+
 □ All images are properly linked and display correctly
+
 □ CSS is properly organized and commented
+
 □ The page looks good on desktop, tablet, and mobile
+
 □ All links and buttons are functional
+
 □ Font Awesome icons display correctly
+
 □ Google Fonts load properly
+
 □ No console errors
+
 □ Include a README explaining your choices
+
 ---
 
 ## 💡 Tips for Success
