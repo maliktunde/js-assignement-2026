@@ -54,3 +54,8 @@ function markTaskCompleted(event) {
     console.log(`name: ${elem.tagName}, type: ${elem.type}, checked: ${elem.checked}`);
     
 }
+// Function to clear all the tasks in one click
+function ciearlist() {
+   const tasklist = document.getElementById(tasklist)
+   taskList.innerHTML = '';
+}

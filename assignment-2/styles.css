@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root {
+  --primary-color: #b48b5c;
+  --dark-text: #1a1a1a;
+  --secondary-text: #4a4a4a;
+  --light-bg: #faf9f7;
+  --card-bg: #ffffff;
+  --accent-color: #ede8e1;
+  --subtle-shadow: rgba(0,0,0,0.06);
+  --font-family:  'Inter','-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif';
+}
+
+body {
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+  background-color: var(--light-bg)
+}
+
+.site-header {
+  background-color: var(--card-bg);
+  padding: 15px 30px;
+  border-bottom: 1px solid var(--subtle-shadow);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background-color: var(--dark-text);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.brand-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.car-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.hero-content{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+  text-align: center;
+  padding: 50px 20px;
+  background-color: var(--accent-color);
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.car-image {
+    width: 100%;
+    height: auto;
+}
+.logo-container{
+   display: flex;
+   color: #000;
+   border-radius: 50%;
+}
+.button-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
