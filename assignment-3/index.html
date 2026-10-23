@@ -7,41 +7,43 @@
       <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="calculator">
+    <main class="calculator">
       <div class="display-container">
-        <div class="display" id="display">0</div>
-        <div class="display-result">0</div>
+        <button id="btn-history" class="btn">&equiv;</button>
+        <div class="display" id="display"></div>
+        <div class="display-result"></div>
       </div>
+       
       <div class="buttons-grid">
              <!-- Row 1: Utilities & Division -->
-            <button class="btn btn-utility" data-action="clear"><span>AC</span></button>
-            <button class="btn btn-utility" data-action="toggle-sign"><span>±</span></button>
-            <button class="btn btn-utility" data-action="percentage"><span>%</span></button>
-            <button class="btn btn-operator" data-action="divide"><span>÷</span></button>
+            <button class="btn btn-function" data-action="clear"><span>AC</span></button>
+            <button class="btn btn-function" data-action="toggle-sign"><span>±</span></button>
+            <button class="btn btn-function" data-action="percentage"><span>%</span></button>
+            <button class="btn btn-operator" data-action="/"><span>&divide;</span></button>
 
             <!-- Row 2: 7, 8, 9 & Multiplication -->
             <button class="btn btn-number" data-value="7"><span>7</span></button>
             <button class="btn btn-number" data-value="8"><span>8</span></button>
             <button class="btn btn-number" data-value="9"><span>9</span></button>
-            <button class="btn btn-operator" data-action="multiply"><span>x</span></button>
+            <button class="btn btn-operator" data-action="*"><span>&times;<span></button>
 
              <!-- Row 3: 4, 5, 6 & Subtraction -->
             <button class="btn btn-number" data-value="4"><span>4</span></button>
             <button class="btn btn-number" data-value="5"><span>5</span></button>
             <button class="btn btn-number" data-value="6"><span>6</span></button>
-            <button class="btn btn-operator" data-action="subtract"><span>-</span></button>
+            <button class="btn btn-operator" data-action="-"><span>&minus;</span></button>
 
             <!-- Row 4: 1, 2, 3 & Addition -->
-            <button class="btn btn-number" data-value="1"><span>4</span></button>
-            <button class="btn btn-number" data-value="2"><span>5</span></button>
-            <button class="btn btn-number" data-value="3"><span>6</span></button>
-            <button class="btn btn-operator" data-action="add"><span>+</span></button>
+            <button class="btn btn-number" data-value="1"><span>1</span></button>
+            <button class="btn btn-number" data-value="2"><span>2</span></button>
+            <button class="btn btn-number" data-value="3"><span>3</span></button>
+            <button class="btn btn-operator" data-action="+"><span>&plus;</span></button>
 
             <!-- Row 4: Backspace, 0, . & = -->
-            <button class="btn btn-icon" data-value="backspace"><span>&#x232B</span></button>
+            <button class="btn btn-function" data-action="backspace"><span>&larrb;</span></button>
             <button class="btn btn-number" data-value="0"><span>0</span></button>
-            <button class="btn btn-decimal" data-value="."><span>.</span></button>
-            <button class="btn btn-operator" data-action="equals"><span>=</span></button>
+            <button class="btn btn-number" data-value="."><span>.</span></button>
+            <button class="btn btn-operator" data-action="="><span>&equals;</span></button>
 
 
 
@@ -53,5 +55,6 @@
 
 
 
-      </div>
+      </main>
+       <script src="calculator.js"></script>
   </body>
